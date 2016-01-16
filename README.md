@@ -1,7 +1,5 @@
 # praxis
-Solutions to exercises from http://programmingpraxis.com/
-
-### Exercises
+Haskell solutions to exercises from http://programmingpraxis.com/
 
 Exercise                                                                |Source File |Test
 ------------------------------------------------------------------------|------------|----------------
