@@ -16,5 +16,4 @@ measureEntropy = ((-1) *) . sum . map val . map snd . frequencies
 
 frequencies :: String -> [(Char, Float)]
 frequencies s = map (\l-> (head l, ratio l)) (group (sort s))
-  where ratio :: [Char] -> Float
-        ratio substring  = fromIntegral (length substring) / fromIntegral (length s)
+  where ratio substring  = fromIntegral (length substring) / fromIntegral (length s)
